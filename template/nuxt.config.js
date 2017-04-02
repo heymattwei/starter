@@ -14,9 +14,21 @@ module.exports = {
     ]
   },
   /*
+  ** Global CSS
+  */
+  css: [
+    { src: '~assets/css/main.scss', lang: 'scss' }
+  ],
+  /*
+  ** Environment variables (https://nuxtjs.org/api/configuration-env)
+  */
+  env: {
+
+  },
+  /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#3B8070' },
+  loading: false,
   /*
   ** Build configuration
   */

@@ -1,7 +1,10 @@
 <template>
   <AppSection>
-    <h1>Hello Nuxt</h1>
-    <h2>A Universal Vue.js Application</h2>
+    <h1>{{ error.statusCode }}</h1>
+    <p>
+      {{ error.message }}
+    </p>
+    <nuxt-link to="/">Go Home</nuxt-link>
   </AppSection>
 </template>
 
@@ -11,9 +14,10 @@ import AppSection from '~components/Section'
 export default {
   components: {
     AppSection
-  }
+  },
+  props: [ 'error' ]
 }
 </script>
 
-<style>
+<style lang="scss">
 </style>
