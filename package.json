@@ -8,7 +8,7 @@
     "nuxt": "latest"
   },
   "scripts": {
-    "heroku-postbuild": "cd template && npm run build && npm start",
+    "heroku-prebuild": "cd template && echo This is Heroku prebuild.",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
