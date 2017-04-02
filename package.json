@@ -5,6 +5,6 @@
   "author": "Matt Wei <hey@mattwei.com>",
   "private": true,
   "scripts": {
-    "heroku-prebuild": "cd template",
+    "heroku-prebuild": "cd template"
   }
 }
