@@ -1,1 +1,1 @@
-web: npm start
+web: cd template && npm start
